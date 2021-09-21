@@ -59,7 +59,7 @@ body {
 
 /* Page structure */
 .wrapper {
-  min-height: var(--wrapper-height);
+
   display: grid;
   place-items: center;
   margin: 0 1rem;
@@ -108,12 +108,11 @@ input {
 }
 h1 {
   color: DodgerBlue;
-  font-size: 400%
-  margin: 
+  font-size: 60px;
 }
 /* Subheading */
 h2 {
-  color: #2800FF;
+  color: DodgerBlue;
 }
 
 /* Interactive image */
