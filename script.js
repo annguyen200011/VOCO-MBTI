@@ -1,7 +1,23 @@
 var mbti;
-var quiz1;
-var quiz2;
-var quiz3;
-var quiz4;
+var E =document.getElementById('E');
+var I =document.getElementById('E');
+var S =document.getElementById('E');
+var N =document.getElementById('E');
+var T =document.getElementById('E');
+var F =document.getElementById('E');
+var J =document.getElementById('E');
+var P =document.getElementById('E');
+E.onclick = add(E);
 
-document.getElementById("demo").innerHTML = quiz1;
+function add(cha) {
+  mbti+=cha;
+  if(cha=="J" || cha=="P")
+    {
+      alert(mbti);
+    }
+}
+
+
+
+
+
