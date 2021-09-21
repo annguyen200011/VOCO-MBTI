@@ -16,7 +16,7 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #00000;
+  --color-bg: #eceded;
   --color-text-main: #000000;
   --color-primary: #FFFF00;
   --wrapper-height: 87vh;
@@ -78,7 +78,7 @@ body {
   font-weight: bold;
   font-size: 65px;
   line-height: 105%;
-  margin: 0;
+  margin: auto 10 auto auto;
 }
 
 /* Very light scaling for our illustration */
