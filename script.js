@@ -1,20 +1,28 @@
-var mbti;
-var E =document.getElementById('E');
-var I =document.getElementById('E');
-var S =document.getElementById('E');
-var N =document.getElementById('E');
-var T =document.getElementById('E');
-var F =document.getElementById('E');
-var J =document.getElementById('E');
-var P =document.getElementById('E');
+var mbti="";
+var E =document.getElementById('E').value;
+var I =document.getElementById('I');
+var S =document.getElementById('S');
+var N =document.getElementById('N');
+var T =document.getElementById('T');
+var F =document.getElementById('F');
+var J =document.getElementById('J');
+var P =document.getElementById('P');
 E.onclick = add(E);
+I.onclick = add(I);
+S.onclick = add(S);
+N.onclick = add(N);
+T.onclick = add(T);
+F.onclick = add(F);
+J.onclick = add(J);
+P.onclick = add(P);
+
 
 function add(cha) {
   mbti+=cha;
-  if(cha=="J" || cha=="P")
-    {
-      alert(mbti);
-    }
+  alert(mbti);
+  if(length(mbti)==4){
+    alert(mbti);
+  }
 }
 
 
