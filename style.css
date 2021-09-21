@@ -94,9 +94,18 @@ body {
   margin: 0.1rem auto 0;
 }
 
-.button{
-  margin 0;
-  place-items: center;
+a:link, a:visited {
+  background-color: #F2CB05;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+a:hover, a:active {
+  background-color: red;
 }
 
 /* Button - Add it from the README instructions */
@@ -111,6 +120,7 @@ input {
   border-radius: 4px;
   padding: 0.5rem 1rem;
   transition: 500ms;
+  
 }
 hover{
             background-color: #F2CB05;
