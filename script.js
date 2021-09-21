@@ -1,25 +1,13 @@
-let mbti=0;
-function E() {
-  mbti=mbti+1;
-  alert(mbti);
-  
+var mbti = 0;
+function quiz1(cha) {
+  if (cha == 1) {
+    return 1;
+  } else return 0;
 }
-function I() {
-  mbti.concat("E");
+function quiz2(cha) {
+  if (cha == 1) {
+    return 10;
+  } else return 0;
 }
-function S() {
-  mbti=mbti+10;
-  alert(mbti);
-}
-function N() {
-  alert("N");
-  mbti.concat("E");
-  
-}
-
-
-
-
-
-
-
+mbti=quiz1()+quiz2();
+alert(mbti);
