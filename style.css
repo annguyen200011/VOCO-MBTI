@@ -129,7 +129,8 @@ h1 {
 }
 /* Subheading */
 h2 {
-  color: DodgerBlue;
+  color: black;
+  font-size: 20px;
 }
 
 /* Interactive image */
