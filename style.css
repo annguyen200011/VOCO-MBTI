@@ -58,8 +58,7 @@ body {
   float: left;
 }
 
-#grid {
-  background-color: green;
+.grid {
   display: grid;
   padding: 20px;
   grid-column-gap: 20px;
@@ -135,6 +134,7 @@ a:visited {
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
+  width: 320px;
   display: inline-block;
 }
 
