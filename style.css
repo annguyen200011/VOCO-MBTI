@@ -94,6 +94,11 @@ body {
   margin: 0.1rem auto 0;
 }
 
+.button{
+  margin 0;
+  place-items: center;
+}
+
 /* Button - Add it from the README instructions */
 button,
 input {
@@ -101,13 +106,15 @@ input {
   font-size: 100%;
   color: white;
   background: DodgerBlue;
-  border: 1px solid;
+  border: 1px solid #eceded;
   box-sizing: border-box;
   border-radius: 4px;
   padding: 0.5rem 1rem;
   transition: 500ms;
-  
 }
+hover{
+            background-color: #F2CB05;
+     }
 h1 {
   color: DodgerBlue;
   font-size: 60px;
