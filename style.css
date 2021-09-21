@@ -78,13 +78,15 @@ body {
   font-weight: bold;
   font-size: 65px;
   line-height: 105%;
-  margin: auto 10 auto auto;
 }
 
 /* Very light scaling for our illustration */
 .illustration {
   max-width: 100%;
   max-height: var(--image-max-width);
+}
+.logo{
+  float: left;
 }
 
 /* Instructions */
@@ -97,12 +99,14 @@ button,
 input {
   font-family: inherit;
   font-size: 100%;
-  background: #FFFFFF;
-  border: 1px solid #000000;
+  color: white;
+  background: DodgerBlue;
+  border: 1px solid;
   box-sizing: border-box;
   border-radius: 4px;
   padding: 0.5rem 1rem;
   transition: 500ms;
+  
 }
 h1 {
   color: DodgerBlue;
