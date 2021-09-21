@@ -59,10 +59,10 @@ body {
 
 /* Page structure */
 .wrapper {
-
+  min-height: var(--wrapper-height);
   display: grid;
   place-items: center;
-  margin: 0 1rem;
+  margin: 10px auto 10px auto;
 }
 .content {
   display: flex;
@@ -73,17 +73,18 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
-  color: #2800FF;
+  color: DodgerBlue ;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 65px;
   line-height: 105%;
   margin: 0;
 }
 
 /* Very light scaling for our illustration */
 .illustration {
+  margin: 0 auto 0 auto;
   max-width: 100%;
   max-height: var(--image-max-width);
   margin-top: var(--image-margin);
@@ -91,7 +92,7 @@ body {
 
 /* Instructions */
 .instructions {
-  margin: 1rem auto 0;
+  margin: 0.1rem auto 0;
 }
 
 /* Button - Add it from the README instructions */
