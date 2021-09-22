@@ -188,6 +188,9 @@ h2 {
 .illustration:active {
   transform: translateY(5px);
 }
+p{
+  color: black;
+}
 
 /* Button dip
 - Toggling this class on and off will move it down and up again

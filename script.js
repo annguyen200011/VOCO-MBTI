@@ -81,6 +81,7 @@ function answer() {
     case 0:
       document.querySelector("#imgChange").src =
         "https://static.neris-assets.com/images/personality-types/headers/diplomats_Mediator_INFP_personality_header.svg";
+    
       document.querySelector("h2").innerHTML = "Nhóm tích cách của bạn là INFP";
       document.querySelector("p").innerHTML =
         "Bạn thích những học thuyết và tin rằng mọi thứ đều có thể được phân tích và cải thiện, vì vậy họ không quan tâm đến thế giới trần tục và những điều thực tế khác – họ nghĩ rằng nó ít thú vị hơn so với những ý tưởng hoặc hành trình theo đuổi kiến thức.";
