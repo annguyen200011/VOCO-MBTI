@@ -190,6 +190,7 @@ h2 {
 }
 p{
   color: black;
+  max-width:50%;
 }
 
 /* Button dip
