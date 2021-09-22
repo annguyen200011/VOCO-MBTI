@@ -188,9 +188,11 @@ h2 {
 .illustration:active {
   transform: translateY(5px);
 }
+p.alignCenter {
+    text-align: center;
+}
 p{
-  color: black;
-  max-width:50%;
+  width: 40%;
 }
 
 /* Button dip
