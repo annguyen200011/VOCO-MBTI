@@ -88,18 +88,18 @@ function answer() {
       break;
 
     case 1:
-      document.querySelector("#imgChange").src = "";
+      document.querySelector("#imgChange").src = "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F89efaaac-f1f4-4d17-949b-09a06ad693a2.image.png?v=1632304839730";
       document.querySelector("h2").innerHTML = "Nhóm tích cách của bạn là ENFP";
       document.querySelector("p").innerHTML = "";
       break;
 
     case 10:
-      document.querySelector("#imgChange").src = "";
+      document.querySelector("#imgChange").src = "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F2c4fba2f-4cdb-4e2c-a7d9-00ea87bca33a.image.png?v=1632304804237";
       document.querySelector("h2").innerHTML = "Nhóm tích cách của bạn là ISFP";
       document.querySelector("p").innerHTML = "";
       break;
     case 11:
-      document.querySelector("#imgChange").src = "";
+      document.querySelector("#imgChange").src = "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F964f2a87-7938-4e8b-bc65-789bd36ad879.image.png?v=1632304745573";
       document.querySelector("h2").innerHTML = "Nhóm tích cách của bạn là ESFP";
       document.querySelector("p").innerHTML = "";
       break;
@@ -119,7 +119,7 @@ function answer() {
       document.querySelector("p").innerHTML = "";
       break;
     case 111:
-      document.querySelector("#imgChange").src = "";
+      document.querySelector("#imgChange").src = "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F698e486f-2362-4606-92ab-b7f94e4ca977.image.png?v=1632304705625";
       document.querySelector("h2").innerHTML = "Nhóm tích cách của bạn là ESTP";
       document.querySelector("p").innerHTML = "";
       break;
@@ -154,12 +154,12 @@ function answer() {
       document.querySelector("p").innerHTML = "";
       break;
     case 1110:
-      document.querySelector("#imgChange").src = "";
+      document.querySelector("#imgChange").src = "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2Fa2a90f65-0761-4234-8d1f-87745d06b6f9.image.png?v=1632304557705";
       document.querySelector("h2").innerHTML = "Nhóm tích cách của bạn là ISTJ";
       document.querySelector("p").innerHTML = "";
       break;
     case 1111:
-      document.querySelector("#imgChange").src = "";
+      document.querySelector("#imgChange").src = "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F18056633-8c0a-474a-9341-ae9ca32d580c.image.png?v=1632304264503";
       document.querySelector("h2").innerHTML = "Nhóm tích cách của bạn là ESTJ";
       document.querySelector("p").innerHTML = "";
       break;
