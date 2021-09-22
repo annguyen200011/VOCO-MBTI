@@ -1,4 +1,4 @@
-let MBTI="xxxx";
+var MBTI=0;
 function quiz1() {
   document.querySelector("h2").innerHTML =
     "Câu hỏi 1: Sau 1 tuần căng thẳng, bạn thường dành thời gian cuối tuần để làm gì?";
@@ -12,13 +12,13 @@ function quiz1() {
 }
 
 function getE() {
-  if(!MBTI.includes("E") || MBTI.includes("I"))
-    {
-      MBTI[0]="E";
-    }
+  MBTI+=1;
 }
 function getI() {
-  MBTI += "I";
+  if(MBTI%10==0)
+    {
+      MBTI
+    }
 }
 
 function quiz2() {
@@ -33,10 +33,10 @@ function quiz2() {
     "<a href='javascript:quiz3()' onclick='getN()'>Bạn thích mơ mộng về tương lai và dựa nhiều vào trực giác hơn là thông tin</a>";
 }
 function getS() {
-  MBTI += "S";
+  MBTI += 10;
 }
 function getN() {
-  MBTI += "N";
+  MBTI += 0;
 }
 
 
