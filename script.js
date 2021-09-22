@@ -220,5 +220,5 @@ function answer() {
   document.querySelector("#answer1").innerHTML = "<a></a>";
   document.querySelector("#answer2").innerHTML = "<a></a>";
   document.querySelector("i").innerHTML =
-    "Mẹo: Bạn có thể bắt đầu lại để tham khảo các nhóm tính cách khác!";
+    "Mẹo: Bạn có thể bắt đầu lại để tham khảo các nhóm tính cách khác! Mọi người cho Ân xin Feed back luôn nhe: https://forms.gle/LDfKEbrSuQxZSpi39";
 }
