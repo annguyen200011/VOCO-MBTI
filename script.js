@@ -13,12 +13,11 @@ function quiz1() {
 
 function getE() {
   MBTI+=1;
+  if(MBTI>1) MBTI=1;
 }
 function getI() {
-  if(MBTI%10==0)
-    {
-      MBTI
-    }
+  if(MBTI>0) MBTI--;
+  MBTI+=0;
 }
 
 function quiz2() {
@@ -33,9 +32,11 @@ function quiz2() {
     "<a href='javascript:quiz3()' onclick='getN()'>Bạn thích mơ mộng về tương lai và dựa nhiều vào trực giác hơn là thông tin</a>";
 }
 function getS() {
-  MBTI += 10;
+  if(MBTI<10) MBTI+=10;
+  else if(MBTI<110) MBTI=100+10+MBTI%100;
 }
 function getN() {
+  if(MBTI>=110) MBTI=
   MBTI += 0;
 }
 
