@@ -1,6 +1,6 @@
 var MBTI = 0;
 function quiz1() {
-  MBTI=0;
+  MBTI = 0;
   document.querySelector("h2").innerHTML =
     "Câu hỏi 1: Sau 1 tuần căng thẳng, bạn thường dành thời gian cuối tuần để làm gì?";
   document.querySelector("#imgChange").src =
@@ -223,3 +223,13 @@ function answer() {
   document.querySelector("i").innerHTML =
     "Mẹo: Bạn có thể bấm nút 'Bắt đầu' lần nữa để có tham khảo các nhóm tính cách khác!";
 }
+
+(function(d, s, id) {
+  var js,
+    fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+  fjs.parentNode.insertBefore(js, fjs);
+})(document, "script", "facebook-jssdk");
