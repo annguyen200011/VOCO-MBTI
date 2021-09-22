@@ -3,6 +3,15 @@
   <head>
     <!-- Load Facebook SDK for JavaScript -->
 
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=960392604302674&autoLogAppEvents=1"
+      nonce="3xONOrKL"
+    ></script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -21,10 +30,7 @@
     <meta name="robots" content="index,follow" />
     <meta property="og:title" content="Trắc nghiệm tính cách 4 câu hỏi" />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://voco-mbti.glitch.me"
-    />
+    <meta property="og:url" content="https://voco-mbti.glitch.me" />
     <meta
       property="og:description"
       content="Tìm hiểu bản thân qua 4 câu hỏi đơn giản"
@@ -94,27 +100,20 @@
     </div>
 
     <!-- Your share button code -->
-    <iframe
-      src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fvoco-mbti.glitch.me%2F&layout=button_count&size=small&appId=960392604302674&width=0&height=0"
-      width="0"
-      height="0"
-      style="border:none;overflow:hidden"
-      scrolling="no"
-      frameborder="0"
-      allowfullscreen="true"
-      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-    ></iframe>
   </body>
-  <iframe
-    src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fvoco-mbti.glitch.me%2F&layout=button_count&size=large&appId=960392604302674&width=98&height=28"
-    width="98"
-    height="28"
-    style="border:none;overflow:hidden"
-    scrolling="no"
-    frameborder="0"
-    allowfullscreen="true"
-    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-  ></iframe>
+  <div
+    class="fb-share-button"
+    data-href="https://voco-mbti.glitch.me/"
+    data-layout="button_count"
+    data-size="large"
+  >
+    <a
+      target="_blank"
+      href="https://voco-mbti.glitch.me"
+      class="fb-xfbml-parse-ignore"
+      >Chia sẻ</a
+    >
+  </div>
   <footer class="footer" id="footer">
     <p>
       Sản phẩm có tham khảo nội dung và hình ảnh từ nhiều nguồn khác nhau, mọi
