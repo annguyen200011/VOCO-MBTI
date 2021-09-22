@@ -1,9 +1,8 @@
-var clickedlinks = [];
-document.addEventListener('DOMContentLoaded', function(){
-  document.querySelector('E'){
-    a.onclick = function()
-    {
-      clickedlinks.push(a.onlick.value);
-    }
-  })
+var clickedlinks = new Array();;
+document.addEventListener('DOMContentLoaded',()=>{
+  document.querySelector('quiz1').onclick = function(){
+    clickedlinks.push(this.value);
+  }
 })
+
+alert(JSON.stringify(clickedlinks));
