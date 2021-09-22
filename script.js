@@ -139,12 +139,12 @@ function answer() {
       document.querySelector("p").innerHTML = "";
       break;
     case 1011:
-      document.querySelector("#imgChange").src = "";
+      document.querySelector("#imgChange").src = "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F3855f80b-e455-46ed-be22-f9264f6238b1.image.png?v=1632304060128";
       document.querySelector("h2").innerHTML = "Nhóm tích cách của bạn là ESFJ";
       document.querySelector("p").innerHTML = "";
       break;
     case 1100:
-      document.querySelector("#imgChange").src = "";
+      document.querySelector("#imgChange").src = "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2Fab54ddd0-ff22-4369-b139-e32eb878d2e9.image.png?v=1632304024089";
       document.querySelector("h2").innerHTML = "Nhóm tích cách của bạn là INTJ";
       document.querySelector("p").innerHTML = "";
       break;
