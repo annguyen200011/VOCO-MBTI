@@ -3,7 +3,13 @@
   <head>
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
-    
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=960392604302674&autoLogAppEvents=1"
+      nonce="ORpXLuKY"
+    ></script>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,7 +19,7 @@
     />
 
     <title>Trắc nghiệm MBTI</title>
-    
+
     <!-- Meta tags for SEO and social sharing -->
     <link rel="canonical" href="https://voco-mbti.glitch.me" />
     <meta
@@ -63,7 +69,13 @@
     <div class="content" role="main">
       <!-- This is the start of content for our page -->
 
-      <img alt="" src="https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F16-personalities-test.png?v=1632227735371" class="items" id="imgChange" width="700px" />
+      <img
+        alt=""
+        src="https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F16-personalities-test.png?v=1632227735371"
+        class="items"
+        id="imgChange"
+        width="700px"
+      />
       <div class="instructions">
         <h2>Click bắt đầu để làm trắc nghiệm</h2>
       </div>
@@ -85,12 +97,18 @@
       </div>
     </div>
     <!-- Your share button code -->
-    <div class="alignCenter">
     <div
       class="fb-share-button"
-      data-href="https://voco-mbti.glitch.me"
+      data-href="https://voco-mbti.glitch.me/"
       data-layout="button_count"
-    ></div>
-      </div>
+      data-size="small"
+    >
+      <a
+        target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fvoco-mbti.glitch.me%2F&amp;src=sdkpreparse"
+        class="fb-xfbml-parse-ignore"
+        >Chia sẻ</a
+      >
+    </div>
   </body>
 </html>
