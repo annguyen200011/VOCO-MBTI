@@ -225,7 +225,7 @@ p.alignCenter {
     text-align: center;
 }
 p{
-  width: 40%;
+  max-width: 650px;
 }
 
 /* Button dip
