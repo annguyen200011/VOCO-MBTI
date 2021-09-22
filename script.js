@@ -1,12 +1,23 @@
+var MBTI="";
 function quiz1() {
   document.querySelector("h2").innerHTML =
     "Câu hỏi 1: Sau 1 tuần căng thẳng, bạn thường dành thời gian cuối tuần để làm gì?";
   document.querySelector("#imgChange").src =
     "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F1.png?v=1632245118753";
 
-  document.querySelector("#answer1").innerHTML = "<a href='javascript:quiz2()' onlick='quiz2()'>Đi ra ngoài cùng bạn bè</a>";
-  document.querySelector("#answer2").innerHTML = "<a href='javascript:quiz2()' onlick='quiz2()'>Ở nhà thư giản</a>";
+  document.querySelector("#answer1").innerHTML = "<a href='javascript:quiz2()' href='javascript:getE()' >Đi ra ngoài cùng bạn bè</a>";
+  document.querySelector("#answer2").innerHTML = "<a href='javascript:quiz2()' onlick='getI()' >Ở nhà thư giản</a>";
 }
+function getE()
+{
+  MBTI+="E";
+}
+function getI()
+{
+  MBTI+="I";
+}
+alert(MBTI);
+
 function quiz2() {
   document.querySelector("h2").innerHTML =
     "Câu hỏi 2: Câu nào sau đây mô tả đúng về tính cách của bạn:";
