@@ -12,12 +12,12 @@ function quiz1() {
 }
 
 function getE() {
-  MBTI+=1;
-  if(MBTI>1) MBTI=1;
+  if(MBTI==0)
+    MBTI+=1;
 }
 function getI() {
-  if(MBTI>0) MBTI--;
-  MBTI+=0;
+  if(MBTI==1)
+    MBTI-=1;
 }
 
 function quiz2() {
@@ -32,12 +32,12 @@ function quiz2() {
     "<a href='javascript:quiz3()' onclick='getN()'>Bạn thích mơ mộng về tương lai và dựa nhiều vào trực giác hơn là thông tin</a>";
 }
 function getS() {
-  if(MBTI<10) MBTI+=10;
-  else if(MBTI<110) MBTI=100+10+MBTI%100;
+  if(parseInt(MBTI/10)==0)
+    MBTI+=10;
 }
 function getN() {
-  if(MBTI>=110) MBTI=
-  MBTI += 0;
+  if(parseInt(MBTI/10)==1)
+    MBTI-=10;
 }
 
 
@@ -48,11 +48,18 @@ function quiz3() {
     "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F3.png?v=1632245118754";
 
   document.querySelector("#answer1").innerHTML =
-    "<a href='javascript:quiz4()' onlick='quiz2()'>Luôn tìm kiếm sự kiện và tính logic để đưa ra quyết định";
+    "<a href='javascript:quiz4()' onclick='getT()'>Luôn tìm kiếm sự kiện và tính logic để đưa ra quyết định";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:quiz4()' onlick='quiz2()'>Xem xét cảm xúc cá nhân và ảnh hưởng của một quyết định lên người khác trước khi đưa ra quyết định đó</a>";
+    "<a href='javascript:quiz4()' onclick='getF()'>Xem xét cảm xúc cá nhân và ảnh hưởng của một quyết định lên người khác trước khi đưa ra quyết định đó</a>";
 }
-
+function getT() {
+  if(parseInt(MBTI/100)==0)
+    MBTI+=100;
+}
+function getF() {
+  if(parseInt(MBTI/100)==1)
+    MBTI-=100;
+}
 
 
 function quiz4() {
@@ -62,12 +69,22 @@ function quiz4() {
     "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F4.png?v=1632245118754";
 
   document.querySelector("#answer1").innerHTML =
-    "<a href='javascript:answer()' onlick='quiz2()'>Chuẩn bị chu đáo quà tặng và quần áo sẽ bận</a>";
+    "<a href='javascript:answer()' onclick='getJ()'>Chuẩn bị chu đáo quà tặng và quần áo sẽ bận</a>";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:answer()' onlick='quiz2()'>Sao phải chuẩn bị? Tôi thích mọi thứ diễn ra tự nhiên và thoải </a>";
+    "<a href='javascript:answer()' onclick='getP()'>Sao phải chuẩn bị? Tôi thích mọi thứ diễn ra tự nhiên và thoải </a>";
 }
+function getJ() {
+  if(parseInt(MBTI/1000)==0)
+    MBTI+=1000;
+}
+function getP() {
+  if(parseInt(MBTI/1000)==1)
+    MBTI-=1000;
+}
+
 function answer() {
   document.querySelector("h2").innerHTML = "Nhóm tích cách của bạn là: " + MBTI;
+  
   document.querySelector("#imgChange").src =
     "https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016";
 
