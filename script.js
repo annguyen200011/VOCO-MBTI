@@ -1,11 +1,9 @@
 var clickedlinks = [];
-document.querySelectorAll("E").forEach((a)=>{
- E.addEventListener("E",addtoarr);
-});
-
-
-function addtoarr(){
-  clickedlinks.push(this.value);
-}
-
-alert(clickedlinks.value);
+document.addEventListener('DOMContentLoaded', function(){
+  document.querySelector('E'){
+    a.onclick = function()
+    {
+      clickedlinks.push(a.onlick.value);
+    }
+  })
+})
