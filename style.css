@@ -85,6 +85,7 @@ a:not(.btn--remix):visited {
 }
 
 .divider {
+  color: black;
   padding: 0 1rem;
 }
 body {
