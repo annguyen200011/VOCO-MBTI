@@ -10,6 +10,7 @@ function quiz1() {
   document.querySelector("#answer2").innerHTML =
     "<a href='javascript:quiz2()' onclick='getI()'>Ở nhà thư giản</a>";
   document.querySelector("p").innerHTML = "";
+  document.querySelector("i").innerHTML = "";
 }
 
 function getE() {
@@ -32,6 +33,7 @@ function quiz2() {
   document.querySelector("#answer2").innerHTML =
     "<a href='javascript:quiz3()' onclick='getN()'>Bạn thích mơ mộng về tương lai và dựa nhiều vào trực giác hơn là thông tin</a>";
   document.querySelector("p").innerHTML = "";
+  document.querySelector("i").innerHTML = "";
 }
 function getS() {
   if (parseInt(MBTI / 10) == 0) MBTI += 10;
@@ -51,6 +53,7 @@ function quiz3() {
   document.querySelector("#answer2").innerHTML =
     "<a href='javascript:quiz4()' onclick='getF()'>Xem xét cảm xúc cá nhân và ảnh hưởng của một quyết định lên người khác trước khi đưa ra quyết định đó</a>";
   document.querySelector("p").innerHTML = "";
+  document.querySelector("i").innerHTML = "";
 }
 function getT() {
   if (parseInt(MBTI / 100) == 0) MBTI += 100;
@@ -70,6 +73,7 @@ function quiz4() {
   document.querySelector("#answer2").innerHTML =
     "<a href='javascript:answer()' onclick='getP()'>Sao phải chuẩn bị? Tôi thích mọi thứ diễn ra tự nhiên và thoải </a>";
   document.querySelector("p").innerHTML = "";
+  document.querySelector("i").innerHTML = "";
 }
 function getJ() {
   if (parseInt(MBTI / 1000) == 0) MBTI += 1000;
@@ -169,4 +173,5 @@ function answer() {
 
   document.querySelector("#answer1").innerHTML = "<a></a>";
   document.querySelector("#answer2").innerHTML = "<a></a>";
+  document.querySelector("i").innerHTML ="Mẹo: Bạn có thể bắt đầu lại để tham khảo các nhóm tính cách khác!";
 }
