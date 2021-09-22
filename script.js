@@ -1,6 +1,7 @@
 var MBTI = 0;
 function quiz1() {
   MBTI = 0;
+  document.getElementById("start-button").style.display = "none";
   document.querySelector("h2").innerHTML =
     "Câu hỏi 1: Sau 1 tuần căng thẳng, bạn thường dành thời gian cuối tuần để làm gì?";
   document.querySelector("#imgChange").src =
@@ -24,6 +25,7 @@ function getI() {
 }
 
 function quiz2() {
+  document.getElementById("start-button").style.display = "none";
   document.querySelector("h2").innerHTML =
     "Câu hỏi 2: Câu nào sau đây mô tả đúng về tính cách của bạn:";
   document.querySelector("#imgChange").src =
@@ -44,6 +46,7 @@ function getN() {
 }
 
 function quiz3() {
+  document.getElementById("start-button").style.display = "none";
   document.querySelector("h2").innerHTML =
     "Câu hỏi 3: Khi đưa ra một quyết định bạn thường";
   document.querySelector("#imgChange").src =
@@ -64,6 +67,7 @@ function getF() {
 }
 
 function quiz4() {
+  document.getElementById("start-button").style.display = "none";
   document.querySelector("h2").innerHTML =
     "Câu hỏi 4: Nếu còn 2 tuần nữa là dự đám cưới của bạn thân, bạn sẽ";
   document.querySelector("#imgChange").src =
@@ -220,6 +224,7 @@ function answer() {
 
   document.querySelector("#answer1").innerHTML = "<a></a>";
   document.querySelector("#answer2").innerHTML = "<a></a>";
+  document.getElementById("start-button").style.display = "block";
   document.querySelector("i").innerHTML =
     "Mẹo: Bạn có thể bấm nút 'Bắt đầu' lần nữa để có tham khảo các nhóm tính cách khác!";
 }

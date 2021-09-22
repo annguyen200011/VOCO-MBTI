@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="vi">
   <head>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=960392604302674&autoLogAppEvents=1"
+      nonce="ORpXLuKY"
+    ></script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -19,7 +29,7 @@
     <meta name="robots" content="index,follow" />
     <meta property="og:title" content="Trắc nghiệm tính cách 4 câu hỏi" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://voco-mbti.glitch.me/quiz.html" />
+    <meta property="og:url" content="https://voco-mbti.glitch.me" />
     <meta
       property="og:description"
       content="Tìm hiểu bản thân qua 4 câu hỏi đơn giản"
@@ -35,6 +45,7 @@
 
     <!-- Import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+
   </head>
   <body>
     <div class="container">
@@ -47,40 +58,60 @@
         <h1>Trắc nghiệm tính cách MBTI</h1>
       </div>
     </div>
-
+    
     <div class="content" role="main">
       <!-- This is the start of content for our page -->
+
       <img
+        alt=""
         src="https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F16-personalities-test.png?v=1632227735371"
-        alt="Editor illustration"
-        title="Click the image!"
+        class="items"
+        id="imgChange"
         width="700px"
       />
-      <!-- Instructions on using this project -->
       <div class="instructions">
-        <h2>
-          Chỉ với 4 câu hỏi đơn giản, các bạn có thể tìm ra được đặc điểm tính
-          cách của mình.
-        </h2>
+        <h2>Chỉ với 4 câu hỏi đơn giản, các bạn có thể tìm ra được đặc điểm tính cách của mình.</h2>
       </div>
-      <a href="quiz.html" id="start" value="2" style="text-decoration: none;"
-        >Làm trắc nghiệm ngay</a
+      <div id="container">
+        
+    </div>
+      <!-- Instructions on using this project -->
+
+      <div id="container">
+        <div id="answer1">
+          <a></a>
+        </div>
+        <div id="answer2">
+          <a></a>
+        </div>
+      </div>
+
+      <p class="alignCenter"></p>
+
+      <div>
+        <i></i>
+      </div>
+      <div>
+        <button onclick="quiz1()" id="start-button">
+        Làm ngay
+    </button>
+      </div>
+    </div>
+    
+    
+    <!-- Your share button code -->
+    <div
+      class="fb-share-button"
+      data-href="https://voco-mbti.glitch.me/"
+      data-layout="button_count"
+      data-size="small"
+    >
+      <a
+        target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fvoco-mbti.glitch.me%2F&amp;src=sdkpreparse"
+        class="fb-xfbml-parse-ignore"
+        >Chia sẻ</a
       >
     </div>
   </body>
-  <footer class="footer">
-    <p>
-      Sản phẩm có tham khảo nội dung và hình ảnh từ nhiều nguồn khác nhau, mọi
-      người có thể tham khảo để tìm hiểu bản thân kĩ hơn và ủng hộ tác giả:
-    </p>
-
-    <ol>
-      <li>https://www.16personalities.com</li>
-      <li>https://mbti.vn</li>
-      <li>https://personalitymax.com</li>
-      <li>
-        https://brightside.me/inspiration-psychology/the-most-precise-4-question-personality-test-392210
-      </li>
-    </ol>
-  </footer>
 </html>
