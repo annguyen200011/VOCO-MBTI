@@ -6,8 +6,8 @@ function quiz1() {
   var answer=["Đi ra ngoài cùng bạn bè", "Ở nhà thư giản"];
   document.addEventListener("DOMContentLoaded", function(){
 
-      document.querySelector('#answer1').value = answer[0];
-    d  ocument.querySelector('#answer2').value = answer[1];
+      document.querySelector('#answer1').innerHTML = "Đi ra ngoài cùng bạn bè";
+      document.querySelector('#answer2').value = "Ở nhà thư giản";
     }
   )
 }
