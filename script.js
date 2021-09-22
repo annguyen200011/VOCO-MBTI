@@ -2,12 +2,11 @@ var clickedlinks = new Array();;
 function quiz1(cha){
   if(cha==1)
     {
-      clickedlinks.push("E");
-      alert(JSON.stringify(clickedlinks));
+      window.clickedlinks.push("E");
     }
-  else
+  if(cha==2)
     {
-      clickedlinks.push("I");
+      window.clickedlinks.push("I");
       alert(JSON.stringify(clickedlinks));
     }
     
@@ -16,14 +15,14 @@ function quiz1(cha){
 function quiz2(cha){
   if(cha==1)
     {
-      clickedlinks.push("S");
-      alert(JSON.stringify(clickedlinks));
+      window.clickedlinks.push("S");
     }
-  else
+  if(cha==2)
     {
-      clickedlinks.push("N");
+      window.clickedlinks.push("N");
       alert(JSON.stringify(clickedlinks));
     }
-    
 }
+quiz1();
+quiz2();
 alert(JSON.stringify(clickedlinks));
