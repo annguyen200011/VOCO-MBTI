@@ -107,7 +107,7 @@ function answer() {
 
     case 1:
       document.querySelector("#imgChange").src =
-        "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F89efaaac-f1f4-4d17-949b-09a06ad693a2.image.png?v=1632304839730";
+        "https://static.neris-assets.com/images/personality-types/headers/diplomats_Campaigner_ENFP_personality_header.svg";
       document.querySelector("h2").innerHTML =
         "Nhóm tích cách của bạn là ENFP: Người truyền cảm hứng/ Người dẫn dắt";
       document.querySelector("p").innerHTML =
