@@ -6,6 +6,7 @@ function quiz1() {
   MBTI = 0;
   document.getElementById("start-button").style.display = "none";
   document.getElementById("footer").style.display = "none";
+  document.getElementById("user").style.display = "none";
   
   document.querySelector("h2").innerHTML =
     "Câu hỏi 1: Sau 1 tuần căng thẳng, bạn thường dành thời gian cuối tuần để làm gì?";
