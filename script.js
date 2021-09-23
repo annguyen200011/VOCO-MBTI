@@ -1,3 +1,6 @@
+
+
+
 var MBTI = 0;
 function quiz1() {
   MBTI = 0;
