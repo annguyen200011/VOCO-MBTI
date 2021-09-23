@@ -6,7 +6,6 @@ function quiz1() {
   MBTI = 0;
   document.getElementById("start-button").style.display = "none";
   document.getElementById("footer").style.display = "none";
-  document.getElementById("user").style.display = "none";
   
   document.querySelector("h2").innerHTML =
     "Câu hỏi 1: Sau 1 tuần căng thẳng, bạn thường dành thời gian cuối tuần để làm gì?";
@@ -237,7 +236,7 @@ function answer() {
   document.getElementById("footer").style.display = "block";
   document.querySelector('#start-button').innerHTML = 'Làm lại';
   document.querySelector("i").innerHTML =
-    "Mẹo: Bạn có thể làm lại lần nữa để có tham khảo các nhóm tính cách khác!";
+    "Mẹo: Bạn có thể làm lại lần nữa để có tham khảo các nhóm tính cách khác! Ngoài ra bạn có thể tìm hiểu thêm và phát triển bản thân qua Fanpage của VOCO và ";
 }
 
 
