@@ -25,15 +25,7 @@ to this section's matching END comment to see page-specific styles.
   --font-family-header: "HK Grotesk";
 }
 
-#i {
-  background-color: none;
-  color: white;
-  padding: none;
-  text-align: center;
-  text-decoration: none;
-  width: none;
-  display: none;
-}
+
 /* Basic page style resets */
 * {
   box-sizing: border-box;
