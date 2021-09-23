@@ -1,12 +1,9 @@
-
-
-
 var MBTI = 0;
 function quiz1() {
   MBTI = 0;
   document.getElementById("start-button").style.display = "none";
   document.getElementById("footer").style.display = "none";
-  
+
   document.querySelector("h2").innerHTML =
     "Câu hỏi 1: Sau 1 tuần căng thẳng, bạn thường dành thời gian cuối tuần để làm gì?";
   document.querySelector("#imgChange").src =
@@ -32,7 +29,7 @@ function getI() {
 function quiz2() {
   document.getElementById("start-button").style.display = "none";
   document.getElementById("footer").style.display = "none";
-  
+
   document.querySelector("h2").innerHTML =
     "Câu hỏi 2: Câu nào sau đây mô tả đúng về tính cách của bạn:";
   document.querySelector("#imgChange").src =
@@ -234,9 +231,7 @@ function answer() {
   document.querySelector("#answer2").innerHTML = "<a></a>";
   document.getElementById("start-button").style.display = "block";
   document.getElementById("footer").style.display = "block";
-  document.querySelector('#start-button').innerHTML = 'Làm lại';
+  document.querySelector("#start-button").innerHTML = "Làm lại";
   document.querySelector("i").innerHTML =
-    "Mẹo: Bạn có thể làm lại lần nữa để có tham khảo các nhóm tính cách khác! Ngoài ra bạn có thể tìm hiểu thêm và phát triển bản thân qua Fanpage của VOCO và ";
+    "Mẹo: Bạn có thể làm lại lần nữa để có tham khảo các nhóm tính cách khác! Ngoài ra bạn có thể tìm hiểu thêm và phát triển bản thân qua <a href='https://www.facebook.com/VOCOCenter'>Fanpage</a> và <a href='https://www.facebook.com/VOCOCenter'>khóa học</a> của VOCO.";
 }
-
-
