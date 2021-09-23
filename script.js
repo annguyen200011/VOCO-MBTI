@@ -96,6 +96,7 @@ function getP() {
 function answer() {
   switch (MBTI) {
     case 0:
+      document.title = "Mình thuộc nhóm tính cách INFP, còn bạn?";
       document.querySelector("#imgChange").src =
         "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2Fkisspng-infp-personality-type-personality-test-human-behav-5aff9773c244a0.3040150515266998917957.png?v=1632320410336";
 
