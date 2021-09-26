@@ -52,10 +52,7 @@ to this section's matching END comment to see page-specific styles.
 /******************************************************************************
 END Glitch hello-app default styles
 ******************************************************************************/
-@media (min-width: 1000px) {
-  body {
-    background-color: lightblue;
-  }
+
 }
 .footer {
   display: flex;
@@ -162,9 +159,8 @@ img {
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
-  font-size: 65px;
-  line-height: 105%;
 }
+
 
 
 /* Very light scaling for our illustration */
