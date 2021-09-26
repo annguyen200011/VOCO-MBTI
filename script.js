@@ -102,6 +102,7 @@ function answer() {
         "Nhóm tích cách của bạn là INFP: Người hòa giải";
       document.querySelector("p").innerHTML =
         "Nhóm tính cách này thường được coi là bình tĩnh và dè dặt, tuy nhiên, ngọn lửa và niềm đam mê bên trong họ rất lớn, không giống như các loại tính cách khác, họ thực sự tình cảm và có lòng trắc ẩn cao.";
+      
       break;
 
     case 1:
