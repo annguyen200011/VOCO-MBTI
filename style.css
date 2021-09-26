@@ -26,6 +26,7 @@ to this section's matching END comment to see page-specific styles.
 }
 
 
+
 /* Basic page style resets */
 * {
   box-sizing: border-box;
@@ -164,6 +165,7 @@ img {
   font-size: 65px;
   line-height: 105%;
 }
+
 
 /* Very light scaling for our illustration */
 .illustration {
