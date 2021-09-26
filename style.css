@@ -175,14 +175,20 @@ img {
 }
 
 
-#lk {
-  background-color: #F2CB05;
+a:link,
+a:visited {
+  background-color: DodgerBlue;
   color: white;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
   width: 330px;
   display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #F2CB05;
 }
 
 /* Button - Add it from the README instructions */
