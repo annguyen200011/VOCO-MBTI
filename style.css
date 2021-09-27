@@ -222,7 +222,7 @@ h2 {
   transform: translateY(5px);
 }
 p.alignCenter {
-    text-align: center;
+    text-align: left;
 }
 p{
   max-width: 650px;
