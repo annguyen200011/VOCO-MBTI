@@ -234,7 +234,7 @@ function answer() {
   document.getElementById("footer").style.display = "block";
   document.querySelector("#start-button").innerHTML = "Làm lại";
   document.querySelector("i").innerHTML =
-    "Mẹo: Bạn có thể làm lại lần nữa để có tham khảo các nhóm tính cách khác! Ngoài ra bạn có thể tìm hiểu thêm và phát triển bản thân qua Fanpage(https://www.facebook.com/VOCOCenter) và Khóa học của VOCO(https://tesse.io/vococenter?tab=courses) ";
+    "Mẹo: Bạn có thể làm lại lần nữa để có tham khảo các nhóm tính cách khác!<br>Ngoài ra bạn có thể tìm hiểu bản thân ";
 }
 
 
