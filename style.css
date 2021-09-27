@@ -64,19 +64,7 @@ END Glitch hello-app default styles
   border-top: 4px solid #fff;
 }
 
-.footer a:not(.btn--remix):link,
-a:not(.btn--remix):visited {
-  font-family: HK Grotesk;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.1rem;
-  color: #000;
-  text-decoration: none;
-  border-style: none;
-}
-.footer a:hover {
-  background: var(--color-primary);
-}
+
 
 .footer .links {
   padding: 0.5rem 1rem 1.5rem;
@@ -90,6 +78,7 @@ a:not(.btn--remix):visited {
 body {
   font-family: HK Grotesk;
   background-color: var(--color-bg);
+  
 }
 .header-content-inner img {
   float: left;
@@ -174,22 +163,11 @@ img {
   margin: 0.1rem auto 0;
 }
 
-
-a:link,
-a:visited {
-  background-color: #F2CB05;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  width: 330px;
-  display: inline-block;
+#answer1, #answer2
+{
+  
 }
 
-a:hover,
-a:active {
-  background-color: red;
-}
 
 /* Button - Add it from the README instructions */
 button,
