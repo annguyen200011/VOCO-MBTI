@@ -238,3 +238,6 @@ function answer() {
 }
 
 
+function l1(){
+  window.open(URL, name);
+}
