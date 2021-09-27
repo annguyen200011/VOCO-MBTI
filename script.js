@@ -239,5 +239,5 @@ function answer() {
 
 
 function l1(){
-  window.open(URL, name);
+  window.open('https://www.16personalities.com/', name);
 }
