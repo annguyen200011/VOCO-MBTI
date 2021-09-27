@@ -163,10 +163,7 @@ img {
   margin: 0.1rem auto 0;
 }
 
-#answer1, #answer2
-{
-  
-}
+
 
 
 /* Button - Add it from the README instructions */
@@ -212,4 +209,20 @@ p{
 */
 .dipped {
   transform: translateY(5px);
+}
+
+a:link,
+a:visited {
+  background-color: #F2CB05;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  width: 330px;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: red;
 }
