@@ -107,6 +107,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  vertical-align: top;
   justify-content: center;
   column-gap: 20px;
   row-gap:10px;
