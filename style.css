@@ -16,7 +16,7 @@ to this section's matching END comment to see page-specific styles.
 /* Our default values set as CSS variables */
 :root {
   --color-bg: #00000;
-  --color-text-main: #000000;
+  --color-text-main: #2F312E;
   --color-primary: #FFFF00;
   --wrapper-height: 87vh;
   --image-max-width: 300px;
@@ -214,7 +214,7 @@ p{
 
 a:link,
 a:visited {
-  background-color: #F2CB05;
+  background-color: #65C7E2;
   color: white;
   padding: 15px 25px;
   text-align: center;
@@ -225,5 +225,5 @@ a:visited {
 
 a:hover,
 a:active {
-  background-color: red;
+  background-color: #E8CC2B;
 }
