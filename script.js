@@ -238,4 +238,3 @@ function answer() {
     "Mẹo: Bạn có thể làm lại lần nữa để có tham khảo các nhóm tính cách khác!";
 }
 
-}
