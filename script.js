@@ -61,7 +61,7 @@ function quiz3() {
   document.querySelector("#answer1").innerHTML =
     "<a href='javascript:quiz4()' onclick='getT()'>Sử dụng logic và lý trí để đưa ra quyết định</a>";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:quiz4()' onclick='getF()'>Lắng nghe trái tim, cảm nhận chính mình và cân nhắc cảm xúc của người khác</a>";
+    "<a href='javascript:quiz4()' onclick='getF()'>Lắng nghe trái tim và cân nhắc cảm xúc của người khác</a>";
   document.querySelector("p").innerHTML = "";
   document.querySelector("i").innerHTML = "";
 }
