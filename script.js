@@ -37,9 +37,9 @@ function quiz2() {
     "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F2.png?v=1632245118754";
 
   document.querySelector("#answer1").innerHTML =
-    "<a href='javascript:quiz3()' onclick='getS()'>Bạn thích tận hưởng mọi khoảnh khắc ở hiện tại, bạn hiện thực và dựa trên thực tế, bạn rất chi tiết, chính xác và thuộc phái hành động</a>";
+    "<a href='javascript:quiz3()' onclick='getS()'>Bạn thích tận hưởng mọi khoảnh khắc ở hiện tại, bạn hiện thực và dựa trên thực tế.</a>";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:quiz3()' onclick='getN()'>Bạn là người yêu thích các ý tưởng và giả thuyết, bạn thích tưởng tượng về tương lai, bạn thích biểu tượng và ý nghĩa, và bạn là một người mơ mộng</a>";
+    "<a href='javascript:quiz3()' onclick='getN()'>Bạn là người yêu thích các ý tưởng và giả thuyết, bạn thích tưởng tượng về tương lai và là một người mơ mộng</a>";
   document.querySelector("p").innerHTML = "";
   document.querySelector("i").innerHTML = "";
 }
@@ -54,14 +54,14 @@ function quiz3() {
   document.getElementById("start-button").style.display = "none";
   document.getElementById("footer").style.display = "none";
   document.querySelector("h2").innerHTML =
-    "Câu hỏi 3: Khi bạn đưa ra một quyết định lớn, như học đại học ở đâu hay liệu có nên chia tay ai đó không, bạn sẽ lựa chọn bằng cách:";
+    "Câu hỏi 3: Khi bạn đưa ra một quyết định lớn, như chọn trường đại học ở đâu hay liệu có nên chia tay ai đó không, bạn sẽ lựa chọn bằng cách:";
   document.querySelector("#imgChange").src =
     "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F3.png?v=1632245118754";
 
   document.querySelector("#answer1").innerHTML =
-    "<a href='javascript:quiz4()' onclick='getT()'>Sử dụng logic và lý trí</a>";
+    "<a href='javascript:quiz4()' onclick='getT()'>Sử dụng logic và lý trí để đưa ra quyết định</a>";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:quiz4()' onclick='getF()'>Nghe trái tim, cảm nhận chính mình và cân nhắc cảm xúc của người khác</a>";
+    "<a href='javascript:quiz4()' onclick='getF()'>Lắng nghe trái tim, cảm nhận chính mình và cân nhắc cảm xúc của người khác</a>";
   document.querySelector("p").innerHTML = "";
   document.querySelector("i").innerHTML = "";
 }
