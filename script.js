@@ -32,14 +32,14 @@ function quiz2() {
   document.getElementById("footer").style.display = "none";
 
   document.querySelector("h2").innerHTML =
-    "Câu hỏi 2: Câu nào sau đây mô tả đúng về tính cách của bạn:";
+    "Câu hỏi 2: Mô tả nào phù hợp với bạn hơn:";
   document.querySelector("#imgChange").src =
     "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F2.png?v=1632245118754";
 
   document.querySelector("#answer1").innerHTML =
-    "<a href='javascript:quiz3()' onclick='getS()'>Bạn quan tâm vào hiện tại, thích các giải pháp đơn giản và thực tế</a>";
+    "<a href='javascript:quiz3()' onclick='getS()'>Bạn thích tận hưởng mọi khoảnh khắc ở hiện tại, bạn hiện thực và dựa trên thực tế, bạn rất chi tiết, chính xác và thuộc phái hành động</a>";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:quiz3()' onclick='getN()'>Bạn thích mơ mộng về tương lai và dựa nhiều vào trực giác hơn là thông tin</a>";
+    "<a href='javascript:quiz3()' onclick='getN()'>Bạn là người yêu thích các ý tưởng và giả thuyết, bạn thích tưởng tượng về tương lai, bạn thích biểu tượng và ý nghĩa, và bạn là một người mơ mộng</a>";
   document.querySelector("p").innerHTML = "";
   document.querySelector("i").innerHTML = "";
 }
@@ -54,14 +54,14 @@ function quiz3() {
   document.getElementById("start-button").style.display = "none";
   document.getElementById("footer").style.display = "none";
   document.querySelector("h2").innerHTML =
-    "Câu hỏi 3: Khi đưa ra một quyết định bạn thường";
+    "Câu hỏi 3: Khi bạn đưa ra một quyết định lớn, như học đại học ở đâu hay liệu có nên chia tay ai đó không, bạn sẽ lựa chọn bằng cách:";
   document.querySelector("#imgChange").src =
     "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F3.png?v=1632245118754";
 
   document.querySelector("#answer1").innerHTML =
-    "<a href='javascript:quiz4()' onclick='getT()'>Luôn tìm kiếm sự kiện và tính logic để đưa ra quyết định";
+    "<a href='javascript:quiz4()' onclick='getT()'>Sử dụng logic và lý trí</a>";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:quiz4()' onclick='getF()'>Xem xét cảm xúc cá nhân và ảnh hưởng của một quyết định lên người khác trước khi đưa ra quyết định đó</a>";
+    "<a href='javascript:quiz4()' onclick='getF()'>Nghe trái tim, cảm nhận chính mình và cân nhắc cảm xúc của người khác</a>";
   document.querySelector("p").innerHTML = "";
   document.querySelector("i").innerHTML = "";
 }
