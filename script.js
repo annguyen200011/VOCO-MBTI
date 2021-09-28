@@ -6,14 +6,14 @@ function quiz1() {
   document.getElementById("footer").style.display = "none";
 
   document.querySelector("h2").innerHTML =
-    "Câu hỏi 1: Sau 1 tuần căng thẳng, bạn thường dành thời gian cuối tuần để làm gì?";
+    "Câu hỏi 1: Khi cảm thấy quá tải và cần sạc lại pin, bạn thường:";
   document.querySelector("#imgChange").src =
     "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F1.png?v=1632245118753";
 
   document.querySelector("#answer1").innerHTML =
     "<a href='javascript:quiz2()' onclick='getE()'>Đi ra ngoài cùng bạn bè</a>";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:quiz2()' onclick='getI()'>Ở nhà thư giản</a>";
+    "<a href='javascript:quiz2()' onclick='getI()'>Dành thời thư giản một mình</a>";
   document.querySelector("p").innerHTML = "";
   document.querySelector("i").innerHTML = "";
 }
@@ -37,9 +37,9 @@ function quiz2() {
     "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F2.png?v=1632245118754";
 
   document.querySelector("#answer1").innerHTML =
-    "<a href='javascript:quiz3()' onclick='getS()'>Bạn thích tận hưởng mọi khoảnh khắc ở hiện tại, bạn hiện thực và dựa trên thực tế.</a>";
+    "<a href='javascript:quiz3()' onclick='getS()'>Bạn thích tận hưởng mọi khoảnh khắc ở hiện tại, bạn hiện thực và dựa trên thực tế</a>";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:quiz3()' onclick='getN()'>Bạn là người yêu thích các ý tưởng và giả thuyết, bạn thích tưởng tượng về tương lai và là một người mơ mộng</a>";
+    "<a href='javascript:quiz3()' onclick='getN()'>Bạn là người yêu thích các ý tưởng và giả thuyết, bạn thích tưởng tượng và mơ mộng về tương lai</a>";
   document.querySelector("p").innerHTML = "";
   document.querySelector("i").innerHTML = "";
 }
@@ -83,7 +83,7 @@ function quiz4() {
   document.querySelector("#answer1").innerHTML =
     "<a href='javascript:answer()' onclick='getJ()'>Chuẩn bị chu đáo quà tặng và quần áo sẽ bận</a>";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:answer()' onclick='getP()'>Sao phải chuẩn bị? Tôi thích mọi thứ diễn ra tự nhiên và thoải </a>";
+    "<a href='javascript:answer()' onclick='getP()'>Để mọi thứ phát triển một cách tự nhiên và linh hoạt</a>";
   document.querySelector("p").innerHTML = "";
   document.querySelector("i").innerHTML = "";
 }
