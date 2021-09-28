@@ -189,7 +189,7 @@ h1 {
 }
 /* Subheading */
 h2 {
-  color: black;
+  color: #2F312E;;
   font-size: 20px;
 }
 
@@ -214,7 +214,7 @@ p{
 
 a:link,
 a:visited {
-  background-color: #65C7E2;
+  background-color: #3fb0ac;
   color: white;
   padding: 15px 25px;
   text-align: center;
@@ -225,5 +225,5 @@ a:visited {
 
 a:hover,
 a:active {
-  background-color: #E8CC2B;
+  background-color: #FA255E;
 }
