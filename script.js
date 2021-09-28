@@ -238,7 +238,4 @@ function answer() {
     "Mẹo: Bạn có thể làm lại lần nữa để có tham khảo các nhóm tính cách khác!";
 }
 
-
-function l1(){
-  window.open('https://www.16personalities.com/', name);
 }
