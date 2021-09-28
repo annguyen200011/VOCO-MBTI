@@ -1,4 +1,5 @@
-var MBTI = 0;
+let MBTI = 0;
+
 function quiz1() {
   MBTI = 0;
   document.getElementById("start-button").style.display = "none";
@@ -18,11 +19,11 @@ function quiz1() {
 }
 
 function getE() {
-  if (MBTI == 0) MBTI += 1;
+  if (MBTI === 0) MBTI += 1;
   answer();
 }
 function getI() {
-  if (MBTI == 1) MBTI -= 1;
+  if (MBTI === 1) MBTI -= 1;
   answer();
 }
 
@@ -43,10 +44,10 @@ function quiz2() {
   document.querySelector("i").innerHTML = "";
 }
 function getS() {
-  if (parseInt(MBTI / 10) == 0) MBTI += 10;
+  if (parseInt(MBTI / 10) === 0) MBTI += 10;
 }
 function getN() {
-  if (parseInt(MBTI / 10) == 1) MBTI -= 10;
+  if (parseInt(MBTI / 10) === 1) MBTI -= 10;
 }
 
 function quiz3() {
@@ -65,10 +66,10 @@ function quiz3() {
   document.querySelector("i").innerHTML = "";
 }
 function getT() {
-  if (parseInt(MBTI / 100) == 0) MBTI += 100;
+  if (parseInt(MBTI / 100) === 0) MBTI += 100;
 }
 function getF() {
-  if (parseInt(MBTI / 100) == 1) MBTI -= 100;
+  if (parseInt(MBTI / 100) === 1) MBTI -= 100;
 }
 
 function quiz4() {
@@ -87,10 +88,10 @@ function quiz4() {
   document.querySelector("i").innerHTML = "";
 }
 function getJ() {
-  if (parseInt(MBTI / 1000) == 0) MBTI += 1000;
+  if (parseInt(MBTI / 1000) === 0) MBTI += 1000;
 }
 function getP() {
-  if (parseInt(MBTI / 1000) == 1) MBTI -= 1000;
+  if (parseInt(MBTI / 1000) === 1) MBTI -= 1000;
 }
 
 function answer() {
