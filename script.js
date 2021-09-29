@@ -9,6 +9,7 @@ let dic = {
   J:"<b>J</b>udgement: Họ đánh giá một cách rất nguyên tắc và khả năng dự đoán của mình, sớm lập kế hoặch và tuân thủ theo nó thay vì là những quyết định tự phát, linh hoạt.<br><br>",
   P:"<b>P</b>erception: Họ không vội đánh giá hay sớm ra một quyết định phán xét quan trọng nào đó ,thay vào đó luôn nhìn nhận một cách linh hoạt vấn đề và có thể thay đổi tùy hoàn cảnh.<br><br>"
 };
+
 function codeToPer(code){
   let per='';
   if(code%10 === 0)  {
