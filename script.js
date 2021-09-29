@@ -1,13 +1,13 @@
 let MBTI = 0;
 let dic = {
-  I:"Introversion: ưa thích hướng nội nên thường có xu hướng thích sự yên tĩnh, chỉ thích tương tác với những người bạn thân thiết. <br>",
-  E:"Extraversion: ưa thích hướng ngoại, cảm giác được thúc đẩy và giàu năng lượng dành cho những người xunh quanh;<br>",
-  S:"Sensing: Dùng cảm nhận cụ thể nhiều hơn là trực giác, vì vậy họ tập trung sự chú ý vào những chi tiết nhỏ nhặt, những điều xảy ra ngay tại thực tại hơn là những thứ có thể đến trong tương lai;<br>",
-  N:"iNtuition: Dùng trực giác nhiều hơn là cảm nhận cụ thể, vì vậy họ tập trung sự chú ý vào bức tranh toàn cảnh cũng như là những điều có thể xảy ra trong tương lai hơn là chú ý vào thực tại;<br>",
-  T:"Thinking: Suy nghĩ lý trí hơn là cảm xúc, xu hướng coi trọng các tiêu chí khách quan hơn là sở thích cá nhân. Khi đưa ra một quyết định thì thường dựa vào sự logic hơn là yếu tố xã hội;<br>",
-  F:"Feeling: Đưa ra quyết định dựa vào cảm nhận, trạng thái cảm xúc tình cảm, giá trị cá nhân hơn là dựa vào các yếu tố khách quan hoặc quy luật logic;<br>",
-  J:"Judgement: Họ đánh giá một cách rất nguyên tắc và khả năng dự đoán của mình, sớm lập kế hoặch và tuân thủ theo nó thay vì là những quyết định tự phát, linh hoạt.<br><br>",
-  P:"Perception: Họ không vội đánh giá hay sớm ra một quyết định phán xét quan trọng nào đó ,thay vào đó luôn nhìn nhận một cách linh hoạt vấn đề và có thể thay đổi tùy hoàn cảnh.<br><br>"
+  I:"<b>I</b>ntroversion: ưa thích hướng nội nên thường có xu hướng thích sự yên tĩnh, chỉ thích tương tác với những người bạn thân thiết. <br>",
+  E:"<b>E</b>xtraversion: ưa thích hướng ngoại, cảm giác được thúc đẩy và giàu năng lượng dành cho những người xunh quanh;<br>",
+  S:"<b>S</b>ensing: Dùng cảm nhận cụ thể nhiều hơn là trực giác, vì vậy họ tập trung sự chú ý vào những chi tiết nhỏ nhặt, những điều xảy ra ngay tại thực tại hơn là những thứ có thể đến trong tương lai;<br>",
+  N:"i<b>N</b>tuition: Dùng trực giác nhiều hơn là cảm nhận cụ thể, vì vậy họ tập trung sự chú ý vào bức tranh toàn cảnh cũng như là những điều có thể xảy ra trong tương lai hơn là chú ý vào thực tại;<br>",
+  T:"<b>T</b>hinking: Suy nghĩ lý trí hơn là cảm xúc, xu hướng coi trọng các tiêu chí khách quan hơn là sở thích cá nhân. Khi đưa ra một quyết định thì thường dựa vào sự logic hơn là yếu tố xã hội;<br>",
+  F:"<b>F</b>eeling: Đưa ra quyết định dựa vào cảm nhận, trạng thái cảm xúc tình cảm, giá trị cá nhân hơn là dựa vào các yếu tố khách quan hoặc quy luật logic;<br>",
+  J:"<b>J</b>udgement: Họ đánh giá một cách rất nguyên tắc và khả năng dự đoán của mình, sớm lập kế hoặch và tuân thủ theo nó thay vì là những quyết định tự phát, linh hoạt.<br><br>",
+  P:"<b>P</b>erception: Họ không vội đánh giá hay sớm ra một quyết định phán xét quan trọng nào đó ,thay vào đó luôn nhìn nhận một cách linh hoạt vấn đề và có thể thay đổi tùy hoàn cảnh.<br><br>"
 };
 function codeToPer(code){
   let per='';
