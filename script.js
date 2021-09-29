@@ -66,9 +66,9 @@ function quiz2() {
     "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F2.png?v=1632245118754";
 
   document.querySelector("#answer1").innerHTML =
-    "<a href='javascript:quiz3()' onclick='getS()'>Bạn thích tận hưởng mọi khoảnh khắc ở hiện tại, bạn hiện thực và dựa trên thực tế</a>";
+    "<a href='javascript:quiz3()' onclick='getS()'>Bạn sống trong hiện tại và tập trung vào đời sống vật chất</a>";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:quiz3()' onclick='getN()'>Bạn là người yêu thích các ý tưởng và giả thuyết, bạn thích tưởng tượng và mơ mộng về tương lai</a>";
+    "<a href='javascript:quiz3()' onclick='getN()'>Bạn thích tưởng tượng và mơ mộng về tương lai</a>";
   document.querySelector("p").innerHTML = "";
   document.querySelector("i").innerHTML = "";
 }
