@@ -11,12 +11,12 @@ let dic = {
 };
 function codeToPer(code){
   let per='';
-  if(code%1000 === 0)  {
+  if(code%10 === 0)  {
     per+='I';
   }
   else per+='E';
 
-  if(parseInt(code/10)%100 === 0)
+  if(parseInt(code/10)%10 === 0)
     per+='N';
   else per+='S';
 
