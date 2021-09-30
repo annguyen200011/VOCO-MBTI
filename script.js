@@ -44,7 +44,7 @@ function quiz1() {
   document.querySelector("#answer1").innerHTML =
     "<a href='javascript:quiz2()' onclick='getE()'>Đi ra ngoài cùng bạn bè</a>";
   document.querySelector("#answer2").innerHTML =
-    "<a href='javascript:quiz2()' onclick='getI()'>Dành thời thư giản một mình</a>";
+    "<a href='javascript:quiz2()' onclick='getI()'>Dành thời thư giãn một mình</a>";
   document.querySelector("p").innerHTML = "";
   document.querySelector("i").innerHTML = "";
 }
