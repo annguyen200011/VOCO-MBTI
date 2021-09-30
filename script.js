@@ -110,7 +110,7 @@ function quiz4() {
     "https://cdn.glitch.com/69eb61fe-1076-43a5-80fc-df6b2454d550%2F4.png?v=1632245118754";
 
   document.querySelector("#answer1").innerHTML =
-    "<a href='javascript:answer()' onclick='getJ()'>Chuẩn bị chu đáo quà tặng và quần áo sẽ bận</a>";
+    "<a href='javascript:answer()' onclick='getJ()'>Chuẩn bị chu đáo quà tặng và quần áo sẽ mặc</a>";
   document.querySelector("#answer2").innerHTML =
     "<a href='javascript:answer()' onclick='getP()'>Để mọi thứ phát triển một cách tự nhiên và linh hoạt</a>";
   document.querySelector("p").innerHTML = "";
