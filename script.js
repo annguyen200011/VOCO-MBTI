@@ -264,6 +264,6 @@ function answer() {
   document.getElementById("footer").style.display = "block";
   document.querySelector("#start-button").innerHTML = "Làm lại";
   document.querySelector("i").innerHTML =
-    "Mẹo: Bạn có thể làm lại lần nữa để có tham khảo các nhóm tính cách khác!<br>Và nhớ chia sẻ để bạn bè cũng tìm ra nghề nghiệp phù hợp với bản thân nhé!";
+    "Mẹo: Bạn có thể làm lại lần nữa để có tham khảo các nhóm tính cách khác hoặc xem phần trích dẫn bên dưới để làm <b> bản trắc nghiệm đầy đủ</b>!<br>Và nhớ chia sẻ để bạn bè cũng tìm ra nghề nghiệp phù hợp với bản thân nhé!";
 }
 
