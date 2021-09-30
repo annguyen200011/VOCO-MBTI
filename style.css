@@ -188,10 +188,13 @@ h1 {
 }
 /* Subheading */
 h2 {
+  max-width: 700px;
   color: #2F312E;;
   font-size: 20px;
 }
-
+i{
+  font-size: smaller;
+}
 /* Interactive image */
 .illustration:active {
   transform: translateY(5px);
