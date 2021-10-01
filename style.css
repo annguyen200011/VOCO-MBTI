@@ -194,6 +194,7 @@ h2 {
 }
 i{
   font-size: smaller;
+  max-width: 650px;
 }
 /* Interactive image */
 .illustration:active {
